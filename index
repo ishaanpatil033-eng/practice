@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+ 
+  font-size:25;
+} 
+
+
+
+#box{
+    
+    height:60px;
+    background-color:#0f1111;
+    width:100%;
+}
+a{
+    text-decoration:none;
+     color:white;   
+    margin-right:200px;
+}
+
+
+button{
+    background-color:#f08804;
+
+
+}
+header{
+   
+}
+
+.dv{
+      
+        text-align:center;
+        border: 2px solid rgba(255,0,0,0.5);
+        height: 500px;
+       
+    }
+#d1{
+       background-color: rgba(48, 192, 231, 0.549);
+    }
+#d2{
+            background-color: rgba(32, 230, 187, 0.549);
+
+    }
+#d3{
+            background-color: rgba(187, 32, 230, 0.549);
+
+    }
+   
+
+footer{
+    color:white;
+   text-align:center;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+   background-color: #0f1111;
+    height: 100px;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><header>
+<div id="box">
+    <a href="#">Amazon.in</a>
+    <a href="#">Account</a>
+    <a href="#">My Cart</a>
+    <a href="#">Contact Us</a>
+     <input type="text" placeholder="Search Amazon.in">
+    <button>Search</button>
+</div>
+</header>
+  <div id="content">
+    <div id="d1" class="dv"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellendus autem porro nobis illo rem odit enim quam recusandae delectus, maxime, excepturi sit quia facilis fuga! Laudantium magni a ipsa.</div>
+   <div id="d2" class="dv">lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellendus autem porro nobis illo rem odit enim quam recusandae delectus, maxime, excepturi sit quia facilis fuga! Laudantium magni a ipsa.</div> 
+   <div id="d3" class="dv">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum aspernatur, adipisci libero neque eos natus quidem eum totam deleniti repellendus sint quas debitis ab cumque provident quasi optio. Magni, excepturi! </div>
+  </div>
+  <footer>
+      Conditions of Use & Sale<br>
+Privacy Notice<br>
+Interest-Based Ads<br>
+© 1996-2026, Amazon.com, Inc. or its affiliates
+  </footer>
+   
+
+</body>
+</html>
